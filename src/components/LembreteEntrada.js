@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../style/LembreteEntrada.css';
 
 function LembreteEntrada() {
   const [lembrete, setLembrete] = useState('');
@@ -13,19 +14,22 @@ function LembreteEntrada() {
       setLembrete('');
     }
 
-  return (
-    <div>
-      <input
-        type="text"
-        value={lembrete}
-        onChange={(e) => setLembrete(e.target.value)}
-        placeholder="Digite seu novo lembrete"
-      />
-      <button type="button" onClick={handleAddLembrete}>
-        Adicionar Lembrete
-      </button>
-    </div>
-  );
-}
+    return (
+        <div className="container">
+          <div className="input-container">
+            <input
+              type="text"
+              value={lembrete}
+              onChange={(e) => setLembrete(e.target.value)}
+              placeholder="Digite seu novo lembrete"
+              className="input"
+            />
+          </div>
+          <button type="button" onClick={handleAddLembrete} className="add-button">
+            Adicionar Lembrete
+          </button>
+        </div>
+      );
+    }
 
 export default LembreteEntrada;

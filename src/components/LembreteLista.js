@@ -1,4 +1,5 @@
 import React from 'react';
+import '../style/LembreteEntrada.css';
 
 const LembreteLista = () => {
   const lembretes = [
@@ -10,9 +11,9 @@ const LembreteLista = () => {
   ];
 
   return (
-    <div>
+    <div className="container">
       {lembretes.map((lembrete) => (
-        <div key={lembrete.id}>
+        <div key={lembrete.id} className="lembrete-item">
           <p>{lembrete.texto}</p>
         </div>
       ))}
