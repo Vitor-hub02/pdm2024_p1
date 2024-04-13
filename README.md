@@ -33,11 +33,11 @@ Abrir o navegador com o endereço local indicado no console como: http://localho
 
 ### Integrantes desse projeto:
 
-<li>
-    <ul>Daniele Morais Correia </ul>
-    <ul>Gabriel Narciso Oliveira </ul>
-    <ul>Jonathan Lins da Silva </ul>
-    <ul>Kalani Sampaio da Silva </ul>
-    <ul>Vitor Vilaça da Silva </ul>
-</li>
+<ul>
+    <li>Daniele Morais Correia </li>
+    <li>Gabriel Narciso Oliveira </li>
+    <li>Jonathan Lins da Silva </li>
+    <li>Kalani Sampaio da Silva </li>
+    <li>Vitor Vilaça da Silva </li>
+</ul>
 
