@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-
+import LembreteEntrada from './components/LembreteEntrada';
+import LembreteLista from './components/LembreteLista';
 
 function App() {
   return (
@@ -8,6 +9,8 @@ function App() {
       <div className="row">
         <div className="col">
           <h1>Hello, Reminders!</h1>
+          <LembreteLista />
+          <LembreteEntrada />
         </div>
       </div>
     </div>
