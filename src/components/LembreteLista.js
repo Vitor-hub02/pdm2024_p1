@@ -10,6 +10,8 @@ const LembreteLista = () => {
     { id: 5, texto: 'Fazer atividades da faculdade' },
   ];
 
+  /*Renderiza uma lista de lembretes usando a sintaxe map para atribuir
+  uma chave única a cada elemento da lista */
   return (
     <div className="container">
       {lembretes.map((lembrete) => (

@@ -3,12 +3,14 @@ import './App.css';
 import LembreteEntrada from './components/LembreteEntrada';
 import LembreteLista from './components/LembreteLista';
 
+
+/*define um componente App que renderiza uma lista de lembretes 
+e uma entrada de texto para adicionar novos lembretes à lista. */
 function App() {
   return (
     <div className="container">
       <div className="row">
         <div className="col">
-          <h1>Hello, Reminders!</h1>
           <LembreteLista />
           <LembreteEntrada />
         </div>
